@@ -1,0 +1,57 @@
+.container {
+	margin-top: 80px;
+}
+.title {
+	text-align: center;
+	font-size: 38px;
+	line-height: 1;
+
+	span {
+		font-style: normal;
+		background: -webkit-linear-gradient(
+			45deg,
+			#7549f2,
+			#df58d2,
+			#ed787c,
+			#ed787c
+		);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
+		font-weight: 600;
+	}
+}
+.featuresGrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 60px 24px;
+	gap: 24px 60px;
+    margin-top: 30px;
+	padding: 0px 100px;
+}
+.featureCard {
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+}
+dd {
+	display: block;
+	margin-inline-start: 10px;
+	unicode-bidi: isolate;
+}
+.featureTitle {
+	white-space: nowrap;
+	display: block;
+	font-size: 30px;
+	line-height: 1;
+	font-weight: 600;
+}
+.featureDescription {
+	color: gray;
+	margin-top: 8px;
+	line-height: 1.5;
+	font-size: 16px;
+	font-weight: 400;
+}

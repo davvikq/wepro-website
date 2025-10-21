@@ -1,0 +1,61 @@
+.section {
+	background-color: #010018;
+	width: 100%;
+}
+.container {
+	padding-top: 50px;
+}
+.content {
+	color: white;
+	display: flex;
+	justify-content: space-between;
+	gap: 100px;
+	padding: 0px 100px;
+}
+.right__content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.title {
+	display: block;
+	font-weight: 700;
+	font-size: 38px;
+	line-height: 1;
+	margin-top: 105px;
+}
+.button {
+	background-color: #fff !important;
+	color: #050a41 !important;
+    width: 38%;
+}
+.button {
+	overflow: hidden;
+	font-size: 16px;
+	padding: 11px 18px 12px;
+	color: #fff;
+	border-radius: 6px;
+	cursor: pointer;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-box-align: center;
+	-ms-flex-align: center;
+	align-items: center;
+	font-weight: 500;
+	position: relative;
+	border: none;
+	transition: all 0.1s ease;
+}
+.button:hover {
+	opacity: 0.7;
+}
+.button::before {
+	content: url('https://wepro3.uz/public/images/flash-animate.svg');
+    width: 24px;
+    height: 24px;
+    margin-right: 6px;
+}
